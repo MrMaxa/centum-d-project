@@ -3,12 +3,13 @@
 @section('content')
     <form
             method="post"
-            action=""
             class="col-sm-12 col-md-6">
         @csrf
 
         <fieldset>
             <legend>Short URL generation:</legend>
+
+            @include('pages.shortUrl.index.partials.flash.successShortUrl')
 
             @include('pages.shortUrl.index.partials.inputs.fullUrl')
 

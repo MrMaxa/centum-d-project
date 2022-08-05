@@ -19,7 +19,7 @@
     <small
             id="transitionLimitHelp"
             class="form-text text-muted">
-        Transition limit — maximum the number of clicks on the link. 0 = unlimited
+        Transition limit — maximum number of clicks on the link. 0 = unlimited
     </small>
 
     @if($errors->has('transitionLimit'))

@@ -20,7 +20,7 @@
     <small
             id="lifetimeHelp"
             class="form-text text-muted">
-        Short URL lifetime — specified in seconds, but no more than 24 hours
+        Short URL lifetime — specified in seconds, but no more than 24 hours (86400 seconds)
     </small>
 
     @if($errors->has('lifetime'))
