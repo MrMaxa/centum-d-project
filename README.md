@@ -26,6 +26,10 @@
 
 ``` ./vendor/bin/sail pint ```
 
+2) Generate PhpDoc for models
+
+```./vendor/bin/sail artisan ide-helper:models```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
